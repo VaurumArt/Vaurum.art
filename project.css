@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'forum'; 
-    src: url('forum.tff') format('truetype'); 
+    src: url('forum.ttf') format('truetype'); 
 }
 
 body, html {
@@ -35,7 +35,7 @@ body, html {
 }
 
 h1 {
-    font-family: 'archivo', sans-serif;
+    font-family: 'forum', sans-serif;
     font-size: 70px;
     background-image: linear-gradient(43deg,#ceaa46 30%, #976011 60%, #875005 100%);
     -webkit-background-clip: text;
