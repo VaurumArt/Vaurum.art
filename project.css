@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'archivo-black.regular'; 
-    src: url('archivo') format('truetype'); 
+    font-family: 'forum'; 
+    src: url('forum') format('truetype'); 
 }
 
 body, html {
-    font-family: 'archivo-black.regular', sans-serif; 
+    font-family: 'forum', sans-serif; 
     text-align: center; 
     background-color:black;
     background-image: url('Images/bg.jpg');  
