@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'forum'; 
-    src: url('forum') format('truetype'); 
+    src: url('forum.tff') format('truetype'); 
 }
 
 body, html {
