@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'archivo-black.regular'; 
+    src: url('archivo') format('truetype'); 
+}
+
+body, html {
+    font-family: 'archivo-black.regular', sans-serif; 
+    text-align: center; 
+    background-color:black;
+    background-image: url('Images/bg.jpg');  
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100%;
+}
+
+
+.image1 {
+    width: 64px;
+    height: 64px;
+    transition: transform 0.3s ease-in-out; 
+    transform: translateY(0); 
+    justify-content: center;
+}
+
+.image1:hover {
+    transform: translateY(-10px); 
+}
+
+.image2 {
+    margin: auto;
+    width: 256px;
+    height: 256px;
+}
+
+h1 {
+    font-family: 'archivo', sans-serif;
+    font-size: 70px;
+    background-image: linear-gradient(43deg,#ceaa46 30%, #976011 60%, #875005 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+    padding: 15px;
+}
